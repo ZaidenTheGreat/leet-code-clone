@@ -1,0 +1,41 @@
+{
+  "name": "leetcode",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "build-css": "tailwindcss build -i ./src/styles/globals.css -o ./dist/css/output.css"
+  },
+  "dependencies": {
+    "@codemirror/lang-javascript": "^6.2.2",
+    "@types/firebase": "^2.4.32",
+    "@types/node": "20.14.9",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "@uiw/codemirror-theme-vscode": "^4.23.0",
+    "@uiw/react-codemirror": "^4.23.0",
+    "assert": "^2.1.0",
+    "eslint": "8.57.0",
+    "eslint-config-next": "13.2.4",
+    "firebase": "^10.13.1",
+    "next": "13.2.4",
+    "react": "^18.3.1",
+    "react-confetti": "^6.1.0",
+    "react-dom": "^18.3.1",
+    "react-firebase-hooks": "^5.1.1",
+    "react-icons": "^5.2.1",
+    "react-split": "^2.0.14",
+    "react-toastify": "^10.0.5",
+    "react-youtube": "^10.1.0",
+    "recoil": "^0.7.7",
+    "typescript": "5.5.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.45",
+    "tailwindcss": "^3.4.10"
+  }
+}
